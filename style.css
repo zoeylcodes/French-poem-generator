@@ -1,3 +1,58 @@
 body {
     background-image: url('Images/cute-strawberry-pattern-pastel-background_53876-114637.jpg');
   }
+
+.container{margin:120px auto;
+max-width: 600px;
+}
+
+a{color:rgb(241, 191, 199) ;}
+
+header{margin-top: 30px;}
+
+  h1 {font-weight: 800;
+font-size: 36px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #3a1b17;
+text-shadow: 1px;
+line-height: 1.5;}
+
+form {padding:30px;
+background-color: white;
+border-radius: 10px;
+display: flex;
+box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+margin-bottom: 30px;}
+
+.instructions{
+    padding:16px;
+    border: 1px solid rgba(39,33,66,0.5);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+
+
+}
+
+.submit-button{margin-left: 10px;
+background-color: rgb(241, 191, 199);
+border:none;
+padding: 14px 25px;
+border-radius: 50px;
+width:150px;
+font-size:16px;}
+
+.poem{padding:30px;
+    font-size: 16px;
+    line-height: 2;
+    border-left: 5px solid rgb(241, 191, 199);
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    margin-bottom: 30px  ;
+}
+
+footer{font-size: 13px;
+text-align: center;
+margin-top: 30px;}
