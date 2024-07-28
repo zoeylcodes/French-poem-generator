@@ -14,16 +14,18 @@
     <div class="container">
     <h1 class="text-center">AI French Poem generator</h1>
    
-
+<div class="form-wrapper">
         <form id="poem-generator-form">
-            <input type="text" placeholder="Enter the topic of the poem.." autofocus required autocomplete="off" class="instructions"/>
-            <input type="submit" class="submit-button" id="user-instructions"/>
+            
+            <input type="text" placeholder="Enter a word to generate your poem.." autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
+            <input type="submit" class="submit-button" />
         </form>
-    
+        <small class="hint">i.e. Flower, Cheese or Moon ..</small>
+    </div>
 
-
+       
    
-    <div class="poem" id="poem"></div>
+    <div class="poem hidden blink" id="poem"></div>
 
 
                    
@@ -33,7 +35,7 @@
    
 
 
-    <footer class="text-center"> This project is coded by <a href="https://www.linkedin.com/in/zoey-l-ab940531b/">Zoey 🍓</a> and is <a href="https://github.com/zoeylcodes/French-poem-generator">pen-sourced on Github</a> and is hosted on <a href="https://zoeysfrenchpoemgenerator.netlify.app/">Netlify</a></footer>
+    <footer class="text-center"> This project is coded by <a href="https://www.linkedin.com/in/zoey-l-ab940531b/">Zoey 🍓</a> and is <a href="https://github.com/zoeylcodes/French-poem-generator">Open-sourced on Github</a> and is hosted on <a href="https://zoeysfrenchpoemgenerator.netlify.app/">Netlify</a></footer>
 </div>
 <script src="index.js"></script>
 </body>
