@@ -1,12 +1,16 @@
 body {
-    background-image: url('Images/cute-strawberry-pattern-pastel-background_53876-114637.jpg');
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
+      url('Images/cute-strawberry-pattern-pastel-background_53876-114637.jpg');
+    background-size: cover;
+    background-position: center;
   }
 
 .container{margin:120px auto;
 max-width: 600px;
 }
 
-a{color:rgb(241, 191, 199) ;}
+a{color:rgb(87, 53, 59) ;}
 
 header{margin-top: 30px;}
 
