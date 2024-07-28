@@ -16,6 +16,8 @@ header{margin-top: 30px;}
 
   h1 {font-weight: 800;
 font-size: 36px;
+text-align: center;
+padding: 20px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: #3a1b17;
 text-shadow: 1px;
